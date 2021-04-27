@@ -4,7 +4,7 @@ const { stringify } = require("querystring");
 class ApplicationTasks extends api {
     constructor(options) {
         super(options);
-        this.setName("/api/v2.0/applications");
+        this.setName("/api/v2.0/applicationstasks");
     }
 
     /**

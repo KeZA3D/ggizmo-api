@@ -1,10 +1,10 @@
 const api = require("../../api");
 const { stringify } = require("querystring");
 
-class MonetaryUnits extends api {
+class Operators extends api {
     constructor(options) {
         super(options);
-        this.setName("/api/v2.0/monetaryunits");
+        this.setName("/api/v2.0/operators");
     }
 
     /**
@@ -97,4 +97,4 @@ class MonetaryUnits extends api {
     }
 }
 
-module.exports = MonetaryUnits;
+module.exports = Operators;

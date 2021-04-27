@@ -1,7 +1,7 @@
 const api = require("../../api");
 const { stringify } = require("querystring");
 
-class Deposittransactions extends api {
+class DepositTransactions extends api {
     constructor(options) {
         super(options);
         this.setName("/api/v2.0/deposittransactions");
@@ -47,4 +47,4 @@ class Deposittransactions extends api {
     }
 }
 
-module.exports = Deposittransactions;
+module.exports = DepositTransactions;
