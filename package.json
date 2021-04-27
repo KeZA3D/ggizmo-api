@@ -1,0 +1,27 @@
+{
+  "name": "ggizmo-api",
+  "version": "0.0.1",
+  "description": "Gizmo SDK APIv2",
+  "main": "index.js",
+  "bin": "index.js",
+  "keywords": [
+    "GizmoAPI",
+    "GizmoSDK",
+    "Gizmo",
+    "Gizmopowered"
+  ],
+  "author": "KeZA3D <zezarUS@bk.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeZA3D/gizmo-nodejs-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KeZA3D/gizmo-nodejs-api.git/issues"
+  },
+  "homepage": "https://github.com/KeZA3D/gizmo-nodejs-api.git#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "querystring": "^0.2.1"
+  }
+}
