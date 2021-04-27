@@ -79,7 +79,7 @@ class GizmoAPI {
             AppGroups: new (require("./src/v2/applicationGroups"))(this.options),
             AppLicenses: new (require("./src/v2/applicationLicenses"))(this.options),
             AppPersonalFiles: new (require("./src/v2/applicationPersonalFiles"))(this.options),
-            App: new (require("./src/v2/applications"))(this.options),
+            Apps: new (require("./src/v2/applications"))(this.options),
             AppTasks: new (require("./src/v2/applicationTasks"))(this.options),
             Assets: new (require("./src/v2/assets"))(this.options),
             AssetTransactions: new (require("./src/v2/assetTransactions"))(this.options),
