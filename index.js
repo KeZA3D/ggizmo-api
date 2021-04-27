@@ -94,7 +94,7 @@ class GizmoAPI {
             Invoices: new (require("./src/v2/Invoices"))(this.options),
             MonetaryUnits: new (require("./src/v2/monetaryUnits"))(this.options),
             Operators: new (require("./src/v2/operators"))(this.options),
-            PaymentMethods: new (require("./src/v2/paymentMethonds"))(this.options),
+            PaymentMethods: new (require("./src/v2/paymentMethods"))(this.options),
             ProductGroups: new (require("./src/v2/productGroups"))(this.options),
             Products: new (require("./src/v2/products"))(this.options),
             ProductsStock: new (require("./src/v2/productsStock"))(this.options),

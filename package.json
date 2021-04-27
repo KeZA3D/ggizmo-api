@@ -1,6 +1,6 @@
 {
   "name": "ggizmo-api",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Gizmo SDK APIv2",
   "main": "index",
   "typings": "index",
