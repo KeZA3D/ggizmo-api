@@ -103,9 +103,5 @@ Also, if you already have a Token, you can specify it during initialization.
 const init = new api(true, { token: '{TOKEN}' })
 ```
 
-## Donate
-[![](https://lh3.googleusercontent.com/proxy/AAy4TAWXHi0QZM8raIVMc_sGy9swMxc1dkQqidF-FWlEdXk3DKxYEoqUJLlryK9uPQOyoOREjZCWm1jIWDIVaihV21eOMqpZhFxJSo8Xsv6HCv4H)](https://www.paypal.me/alexzubar)
-
-
 ## License
 GGizmo-API is released under the [MIT License](https://github.com/KeZA3D/ggizmo-api/blob/main/LICENSE)
