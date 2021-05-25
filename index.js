@@ -50,23 +50,7 @@ class GizmoAPI {
             return e;
         }
     }
-
-    async test() {
-        return await fetch(
-            "http://" +
-            this._user +
-            ":" +
-            this._password +
-            "@" +
-            this._ip +
-            ":" +
-            this._port +
-            "/api/service/settings"
-        ).then((res) => {
-            return res.status;
-        });
-    }
-
+    
     v2() {
         if (this.options.bearer == true && this.options.token === null) {
             throw new Error("Token is required!");
